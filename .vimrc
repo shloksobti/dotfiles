@@ -2,7 +2,8 @@
 
 " Colors {{{ 
 syntax on
-colorscheme badwolf         
+"colorscheme badwolf         
+autocmd vimenter * colorscheme gruvbox
 set background=dark
 set termguicolors 
 " }}}
@@ -55,6 +56,7 @@ set writebackup
 call plug#begin('~/.vim/plugged')
 
 Plug 'bling/vim-airline'
+Plug 'morhetz/gruvbox'
 Plug 'preservim/nerdcommenter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdtree'
