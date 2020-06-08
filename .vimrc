@@ -46,9 +46,9 @@ set foldmethod=indent   " fold based on indent level
 
 " Backups {{{
 set backup
-set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set backupdir=~/.vim-tmp//,~/.tmp//,~/tmp//,/var/tmp//,/tmp//
 set backupskip=/tmp/*,/private/tmp/*
-set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set directory=~/.vim-tmp//,~/.tmp//,~/tmp//,/var/tmp,/tmp//
 set writebackup
 " }}}
 
@@ -59,6 +59,7 @@ Plug 'bling/vim-airline'
 Plug 'morhetz/gruvbox'
 Plug 'preservim/nerdcommenter'
 Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
 Plug 'rhysd/vim-clang-format'
 Plug 'bfrg/vim-cpp-modern'
