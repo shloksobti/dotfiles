@@ -1,4 +1,4 @@
-1. Setup Symbolic Links to HOME directory
+1. Setup Symbolic Links for .vimrc and .vim to HOME directory
 
 2. Go to .vimrc and do :PluginInstall
 
