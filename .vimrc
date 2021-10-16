@@ -63,8 +63,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
 Plug 'rhysd/vim-clang-format'
 Plug 'bfrg/vim-cpp-modern'
-Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
-Plug 'Valloric/YouCompleteMe'
 
 call plug#end()
 " }}}
