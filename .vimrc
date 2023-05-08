@@ -3,9 +3,9 @@
 " Colors {{{ 
 syntax on
 "colorscheme badwolf         
-autocmd vimenter * colorscheme gruvbox
-set background=dark
-set termguicolors 
+"autocmd vimenter * colorscheme gruvbox
+"set background=dark
+"set termguicolors 
 " }}}
 
 " Spaces and Tabs {{{
@@ -63,6 +63,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
 Plug 'rhysd/vim-clang-format'
 Plug 'bfrg/vim-cpp-modern'
+Plug 'ayu-theme/ayu-vim'
 
 call plug#end()
 " }}}
@@ -75,6 +76,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " You Complete Me 
 "let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 
+set termguicolors
+let ayucolor="dark"
+colorscheme ayu
 " }}}
 
 " Custom Overrides {{{
